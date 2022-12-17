@@ -1,0 +1,22 @@
+article{
+    max-width: 62.5%;
+    min-width: 60%;
+    margin-top: 1em;
+    padding: 1em 1.5em;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article svg{
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+article button{
+    padding: 0;
+    background-color: transparent;
+}
+

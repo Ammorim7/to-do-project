@@ -1,0 +1,19 @@
+header{
+    padding: 2em;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06bee1;
+    color: #fff;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+header svg{
+    font-size: 2em;
+}

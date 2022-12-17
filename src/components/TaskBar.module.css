@@ -1,0 +1,34 @@
+.taskAddArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.taskAddArea div{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.taskAddArea input, button{
+    padding: 0.5em 1em;
+    border: none;
+    font-size: 1.2em;
+}
+
+.taskAddArea button {
+    background-color: #06bee1;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.taskAddArea button:hover{
+    background-color: #06bce1b2;
+    transition: 0.5s;
+}
+
+.taskAddArea button:active {
+    background-color: #036b80;
+    transition: 0s;
+}
